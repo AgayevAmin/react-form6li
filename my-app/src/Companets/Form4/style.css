@@ -1,0 +1,68 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fbfbfb
+}
+.Form1{
+    background-color: white;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.input{
+    padding: 10px 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid #cc2b6e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(156, 32, 84, 0.7);
+}
+.inputs{
+    /* display: flex; */
+    width: 45%;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    gap: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.btn1{
+    
+    background-color: #ef498f;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ef498f;
+}
+.checkbox1{
+    width: 20%;
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+
+.errorMessage{
+    color: red;
+}

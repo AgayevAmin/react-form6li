@@ -1,0 +1,75 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fbfbfb
+}
+.Form1{
+    background-color: white;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    padding: 40px;   
+    box-shadow: 0 0 5px rgba(192, 191, 191, 0.7);
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 10px; */
+    /* margin-bottom: 50px; */
+}
+.input{
+    padding: 10px 11px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid #cc2b6e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(156, 32, 84, 0.7);
+}
+.btn3{
+    color: #cc2b6e;
+    background-color: #e2e2e2;
+    border: none;
+    font-size: 15px;
+    width: 40%;
+    padding: 10px ;
+    border-radius: 9px; 
+    border-bottom: 1px solid #ef498f;
+    margin-right: 10px;
+}
+.btn4{
+    color: #cc2b6e;
+    background-color: #e2e2e2;
+    border: none;
+    font-size: 15px;
+    width: 50%;
+    margin-left: 10px;
+    padding: 10px ;
+    border-radius: 9px; 
+    border-bottom: 1px solid #ef498f;
+}
+
+
+
+
+.end3{
+    border: none;
+    color: black;
+    font-size: 20px;
+    width: 240px;
+    margin-top: 4px;
+    text-decoration: none;
+    
+}
+.errorMessage{
+    color: red;
+}
+
